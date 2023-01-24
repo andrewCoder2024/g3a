@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import json
 import pandas as pd
-import requests
+
 app = FastAPI()
 import os
 @app.get("/")
